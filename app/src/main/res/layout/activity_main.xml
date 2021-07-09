@@ -64,7 +64,7 @@
             android:fontFamily="@font/montserrat"
             android:gravity="center"
             android:rotation="270"
-            android:text="@string/contatcs_text"
+            android:text="@string/contacts_text"
             android:textColor="@color/black"
             android:textSize="20sp"
             app:layout_constraintBottom_toTopOf="@+id/imageView"

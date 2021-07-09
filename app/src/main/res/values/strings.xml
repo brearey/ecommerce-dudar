@@ -1,9 +1,9 @@
 <resources>
-    <string name="app_name">ECommerceDudar</string>
+    <string name="app_name">ECommerce Dudar</string>
     <string name="courses">Courses</string>
     <string name="app">App</string>
     <string name="sales_icon">Sales</string>
-    <string name="contatcs_text">Контакты</string>
+    <string name="contacts_text">Контакты</string>
     <string name="about_text">Про нас</string>
     <string name="main_text">Главная</string>
 
