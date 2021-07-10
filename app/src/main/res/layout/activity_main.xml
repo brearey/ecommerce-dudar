@@ -98,4 +98,25 @@
         app:layout_constraintStart_toEndOf="@+id/courses"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <ImageView
+        android:id="@+id/filterIV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="15dp"
+        android:contentDescription="@string/filter_icon"
+        app:layout_constraintStart_toEndOf="@id/constraintLayout"
+        app:layout_constraintTop_toBottomOf="@id/courses"
+        app:srcCompat="@drawable/ic_filter" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        tools:listitem="@layout/recyclerview_item"
+        app:layout_constraintBottom_toBottomOf="@+id/filterIV"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/filterIV"
+        app:layout_constraintTop_toTopOf="@+id/filterIV" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
